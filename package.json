@@ -11,6 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "dotenv": "^17.3.1"
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "nodemon": "^3.1.14"
   }
 }

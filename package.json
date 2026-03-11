@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node main.js && node os/index.js"
+    "start": "SET ENV_FILE=.env.development && nodemon main.js",
+    "build": "SET ENV_FILE=.env.production && nodemon main.js",
+    "deploy": "SET ENV_FILE=.env.domain && nodemon main.js"
   },
   "keywords": [],
   "author": "",
